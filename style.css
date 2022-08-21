@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#carta-gerada {
+    margin: 60px;
+}
+
+span {
+    margin: 5px;
+}
+
+#criar-carta {
+    width: 120px;
+    font-size: 15px;
+    border-radius: 12px;
+    background-color: #000000;
+    color: white;
+    border: 1px solid white;
+    padding: 3px;
+    margin-left: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.newspaper {
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.magazine1 {
+    background-color: teal;
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.magazine2 {
+    background-image: url(/images/pink-pattern.png);
+    color: fuchsia;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+.medium {
+    font-size: 20px;
+    padding: 8px;
+}
+
+.big {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.reallybig {
+    font-size: 40px;
+    padding: 15px;
+}
+
+.rotateleft {
+    transform: rotate(-5deg);
+}
+
+.rotateright {
+    transform: rotate(5deg);
+}
+
+.skewleft {
+    transform: skewX(10deg);
+}
+
+.skewright {
+    transform: skewX(-10deg);
+}
+
